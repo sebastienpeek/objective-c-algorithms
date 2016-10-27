@@ -14,6 +14,8 @@
 		ED2E0AB11DC291F300E5813A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED2E0AB01DC291F300E5813A /* Assets.xcassets */; };
 		ED2E0AB41DC291F300E5813A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2E0AB21DC291F300E5813A /* LaunchScreen.storyboard */; };
 		ED2E0ABF1DC291F300E5813A /* Objective_C_AlgorithmsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2E0ABE1DC291F300E5813A /* Objective_C_AlgorithmsUITests.m */; };
+		ED2E0AD61DC2961200E5813A /* BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2E0AD51DC2961200E5813A /* BinarySearch.m */; };
+		ED2E0AD91DC29AC800E5813A /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2E0AD81DC29AC800E5813A /* Stack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		ED2E0ABA1DC291F300E5813A /* Objective-C-AlgorithmsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objective-C-AlgorithmsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED2E0ABE1DC291F300E5813A /* Objective_C_AlgorithmsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Objective_C_AlgorithmsUITests.m; sourceTree = "<group>"; };
 		ED2E0AC01DC291F300E5813A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED2E0AD41DC2961200E5813A /* BinarySearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinarySearch.h; sourceTree = "<group>"; };
+		ED2E0AD51DC2961200E5813A /* BinarySearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinarySearch.m; sourceTree = "<group>"; };
+		ED2E0AD71DC29AC800E5813A /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		ED2E0AD81DC29AC800E5813A /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,9 @@
 		ED2E0AA31DC291F300E5813A /* Objective-C-Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				ED2E0ACD1DC2960600E5813A /* Basics */,
+				ED2E0ACB1DC2950C00E5813A /* Algorithms */,
+				ED2E0ACC1DC2950C00E5813A /* CTCI */,
 				ED2E0AA71DC291F300E5813A /* AppDelegate.h */,
 				ED2E0AA81DC291F300E5813A /* AppDelegate.m */,
 				ED2E0AAA1DC291F300E5813A /* ViewController.h */,
@@ -109,6 +118,79 @@
 				ED2E0AC01DC291F300E5813A /* Info.plist */,
 			);
 			path = "Objective-C-AlgorithmsUITests";
+			sourceTree = "<group>";
+		};
+		ED2E0ACB1DC2950C00E5813A /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		ED2E0ACC1DC2950C00E5813A /* CTCI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CTCI;
+			sourceTree = "<group>";
+		};
+		ED2E0ACD1DC2960600E5813A /* Basics */ = {
+			isa = PBXGroup;
+			children = (
+				ED2E0ACE1DC2960600E5813A /* Binary Search */,
+				ED2E0ACF1DC2960600E5813A /* Boyer-Moore String Search */,
+				ED2E0AD01DC2960600E5813A /* Insertion Sort */,
+				ED2E0AD11DC2960600E5813A /* Merge Sort */,
+				ED2E0AD21DC2960600E5813A /* Queue */,
+				ED2E0AD31DC2960600E5813A /* Stack */,
+			);
+			path = Basics;
+			sourceTree = "<group>";
+		};
+		ED2E0ACE1DC2960600E5813A /* Binary Search */ = {
+			isa = PBXGroup;
+			children = (
+				ED2E0AD41DC2961200E5813A /* BinarySearch.h */,
+				ED2E0AD51DC2961200E5813A /* BinarySearch.m */,
+			);
+			path = "Binary Search";
+			sourceTree = "<group>";
+		};
+		ED2E0ACF1DC2960600E5813A /* Boyer-Moore String Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Boyer-Moore String Search";
+			sourceTree = "<group>";
+		};
+		ED2E0AD01DC2960600E5813A /* Insertion Sort */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Insertion Sort";
+			sourceTree = "<group>";
+		};
+		ED2E0AD11DC2960600E5813A /* Merge Sort */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Merge Sort";
+			sourceTree = "<group>";
+		};
+		ED2E0AD21DC2960600E5813A /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		ED2E0AD31DC2960600E5813A /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				ED2E0AD71DC29AC800E5813A /* Stack.h */,
+				ED2E0AD81DC29AC800E5813A /* Stack.m */,
+			);
+			path = Stack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,8 +297,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED2E0AD61DC2961200E5813A /* BinarySearch.m in Sources */,
 				ED2E0AAC1DC291F300E5813A /* ViewController.m in Sources */,
 				ED2E0AA91DC291F300E5813A /* AppDelegate.m in Sources */,
+				ED2E0AD91DC29AC800E5813A /* Stack.m in Sources */,
 				ED2E0AA61DC291F300E5813A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +498,7 @@
 				ED2E0AC51DC291F300E5813A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED2E0AC61DC291F300E5813A /* Build configuration list for PBXNativeTarget "Objective-C-AlgorithmsUITests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +507,7 @@
 				ED2E0AC81DC291F300E5813A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
