@@ -16,6 +16,8 @@
 		ED2E0ABF1DC291F300E5813A /* Objective_C_AlgorithmsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2E0ABE1DC291F300E5813A /* Objective_C_AlgorithmsUITests.m */; };
 		ED2E0AD61DC2961200E5813A /* BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2E0AD51DC2961200E5813A /* BinarySearch.m */; };
 		ED2E0AD91DC29AC800E5813A /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2E0AD81DC29AC800E5813A /* Stack.m */; };
+		ED2E0ADC1DC29CF000E5813A /* StackDataStructureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2E0ADB1DC29CF000E5813A /* StackDataStructureTests.swift */; };
+		ED2E0ADD1DC29E0D00E5813A /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2E0AD81DC29AC800E5813A /* Stack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		ED2E0AD51DC2961200E5813A /* BinarySearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinarySearch.m; sourceTree = "<group>"; };
 		ED2E0AD71DC29AC800E5813A /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		ED2E0AD81DC29AC800E5813A /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
+		ED2E0ADA1DC29CF000E5813A /* Objective-C-AlgorithmsUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Objective-C-AlgorithmsUITests-Bridging-Header.h"; path = "Basics/Stack/Objective-C-AlgorithmsUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		ED2E0ADB1DC29CF000E5813A /* StackDataStructureTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackDataStructureTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 		ED2E0AA41DC291F300E5813A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ED2E0ADA1DC29CF000E5813A /* Objective-C-AlgorithmsUITests-Bridging-Header.h */,
 				ED2E0AA51DC291F300E5813A /* main.m */,
 			);
 			name = "Supporting Files";
@@ -189,6 +194,7 @@
 			children = (
 				ED2E0AD71DC29AC800E5813A /* Stack.h */,
 				ED2E0AD81DC29AC800E5813A /* Stack.m */,
+				ED2E0ADB1DC29CF000E5813A /* StackDataStructureTests.swift */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
@@ -248,6 +254,7 @@
 					ED2E0AB91DC291F300E5813A = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 75U8G6JJG3;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = ED2E0AA01DC291F300E5813A;
 					};
@@ -309,6 +316,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED2E0ADD1DC29E0D00E5813A /* Stack.m in Sources */,
+				ED2E0ADC1DC29CF000E5813A /* StackDataStructureTests.swift in Sources */,
 				ED2E0ABF1DC291F300E5813A /* Objective_C_AlgorithmsUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -458,11 +467,15 @@
 		ED2E0AC71DC291F300E5813A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 75U8G6JJG3;
 				INFOPLIST_FILE = "Objective-C-AlgorithmsUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.proto.Objective-C-AlgorithmsUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Objective-C-Algorithms/Basics/Stack/Objective-C-AlgorithmsUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Objective-C-Algorithms";
 			};
 			name = Debug;
@@ -470,11 +483,14 @@
 		ED2E0AC81DC291F300E5813A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 75U8G6JJG3;
 				INFOPLIST_FILE = "Objective-C-AlgorithmsUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.proto.Objective-C-AlgorithmsUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Objective-C-Algorithms/Basics/Stack/Objective-C-AlgorithmsUITests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Objective-C-Algorithms";
 			};
 			name = Release;

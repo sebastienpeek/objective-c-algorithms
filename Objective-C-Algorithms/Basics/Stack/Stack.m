@@ -16,6 +16,14 @@
 
 @implementation Stack
 
+- (id) init {
+    if (self == [super init]) {
+        self.array = [NSMutableArray new];
+    }
+    
+    return self;
+}
+
 - (BOOL) isEmpty {
     return self.array.count == 0;
 }
