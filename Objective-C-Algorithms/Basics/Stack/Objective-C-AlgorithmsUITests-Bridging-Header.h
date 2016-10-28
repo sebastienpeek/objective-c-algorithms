@@ -8,3 +8,4 @@
 #import "NaiveQueue.h"
 #import "InsertionSort.h"
 #import "MergeSort.h"
+#import "BoyerMoore.h"
