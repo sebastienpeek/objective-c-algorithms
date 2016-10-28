@@ -18,6 +18,9 @@
 		ED2E0AD91DC29AC800E5813A /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2E0AD81DC29AC800E5813A /* Stack.m */; };
 		ED2E0ADC1DC29CF000E5813A /* StackDataStructureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2E0ADB1DC29CF000E5813A /* StackDataStructureTests.swift */; };
 		ED2E0ADD1DC29E0D00E5813A /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2E0AD81DC29AC800E5813A /* Stack.m */; };
+		ED2E0B0C1DC2DEF800E5813A /* NaiveQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2E0B0B1DC2DEF800E5813A /* NaiveQueue.m */; };
+		ED2E0B101DC2E01400E5813A /* NaiveQueueDataStructureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2E0B0F1DC2E01400E5813A /* NaiveQueueDataStructureTests.swift */; };
+		ED2E0B111DC2E11600E5813A /* NaiveQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2E0B0B1DC2DEF800E5813A /* NaiveQueue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,9 @@
 		ED2E0AD81DC29AC800E5813A /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
 		ED2E0ADA1DC29CF000E5813A /* Objective-C-AlgorithmsUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Objective-C-AlgorithmsUITests-Bridging-Header.h"; path = "Basics/Stack/Objective-C-AlgorithmsUITests-Bridging-Header.h"; sourceTree = "<group>"; };
 		ED2E0ADB1DC29CF000E5813A /* StackDataStructureTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackDataStructureTests.swift; sourceTree = "<group>"; };
+		ED2E0B0A1DC2DEF800E5813A /* NaiveQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaiveQueue.h; sourceTree = "<group>"; };
+		ED2E0B0B1DC2DEF800E5813A /* NaiveQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaiveQueue.m; sourceTree = "<group>"; };
+		ED2E0B0F1DC2E01400E5813A /* NaiveQueueDataStructureTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaiveQueueDataStructureTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +191,9 @@
 		ED2E0AD21DC2960600E5813A /* Queue */ = {
 			isa = PBXGroup;
 			children = (
+				ED2E0B0A1DC2DEF800E5813A /* NaiveQueue.h */,
+				ED2E0B0B1DC2DEF800E5813A /* NaiveQueue.m */,
+				ED2E0B0F1DC2E01400E5813A /* NaiveQueueDataStructureTests.swift */,
 			);
 			path = Queue;
 			sourceTree = "<group>";
@@ -305,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED2E0AD61DC2961200E5813A /* BinarySearch.m in Sources */,
+				ED2E0B0C1DC2DEF800E5813A /* NaiveQueue.m in Sources */,
 				ED2E0AAC1DC291F300E5813A /* ViewController.m in Sources */,
 				ED2E0AA91DC291F300E5813A /* AppDelegate.m in Sources */,
 				ED2E0AD91DC29AC800E5813A /* Stack.m in Sources */,
@@ -317,8 +327,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED2E0ADD1DC29E0D00E5813A /* Stack.m in Sources */,
+				ED2E0B111DC2E11600E5813A /* NaiveQueue.m in Sources */,
 				ED2E0ADC1DC29CF000E5813A /* StackDataStructureTests.swift in Sources */,
 				ED2E0ABF1DC291F300E5813A /* Objective_C_AlgorithmsUITests.m in Sources */,
+				ED2E0B101DC2E01400E5813A /* NaiveQueueDataStructureTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
