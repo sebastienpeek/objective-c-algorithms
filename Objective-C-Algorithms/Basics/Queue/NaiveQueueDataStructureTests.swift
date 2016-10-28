@@ -12,7 +12,6 @@ class NaiveQueueDataStructureTests: XCTestCase {
     
     var naiveQueueObj:NaiveQueue!
     
-    
     override func setUp() {
         super.setUp()
         naiveQueueObj = NaiveQueue()
