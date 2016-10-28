@@ -10,6 +10,9 @@
 
 @implementation InsertionSort
 
+// Efficient on smaller datasets
+// Best =  n, Average = n^2, Worst = n^2
+
 + (NSArray *)insertionSort:(NSMutableArray *)unsortedArray {
     
     long count = unsortedArray.count;

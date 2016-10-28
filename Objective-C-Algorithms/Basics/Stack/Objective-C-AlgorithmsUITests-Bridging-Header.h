@@ -7,3 +7,4 @@
 #import "Stack.h"
 #import "NaiveQueue.h"
 #import "InsertionSort.h"
+#import "MergeSort.h"
