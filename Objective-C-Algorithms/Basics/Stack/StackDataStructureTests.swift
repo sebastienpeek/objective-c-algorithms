@@ -26,13 +26,19 @@ class StackDataStructureTests: XCTestCase {
     
     func testPush() {
         stackObj.push(10)
+        XCTAssertTrue(stackObj.peek() as! Int == 10)
+        
+        stackObj.push(3)
+        XCTAssertTrue(stackObj.peek() as! Int == 3)
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testPop() {
+        
+        stackObj.push(10)
+        stackObj.push(3)
+        
+        XCTAssertTrue(stackObj.pop() as! Int == 3)
+        XCTAssertTrue(stackObj.pop() as! Int == 10)
     }
     
 }
