@@ -20,6 +20,10 @@
 		ED2E0ADD1DC29E0D00E5813A /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2E0AD81DC29AC800E5813A /* Stack.m */; };
 		ED2E0B251DC2E50600E5813A /* NaiveQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2E0B221DC2E50600E5813A /* NaiveQueue.m */; };
 		ED2E0B261DC2E51400E5813A /* NaiveQueueDataStructureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2E0B211DC2E50600E5813A /* NaiveQueueDataStructureTests.swift */; };
+		ED2E0B291DC2E5F000E5813A /* InsertionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2E0B281DC2E5F000E5813A /* InsertionSort.m */; };
+		ED2E0B2B1DC2E67F00E5813A /* InsertionSortDataStructureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2E0B2A1DC2E67F00E5813A /* InsertionSortDataStructureTests.swift */; };
+		ED2E0B2C1DC2E82E00E5813A /* InsertionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2E0B281DC2E5F000E5813A /* InsertionSort.m */; };
+		ED2E0B2D1DC2E83300E5813A /* NaiveQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2E0B221DC2E50600E5813A /* NaiveQueue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,9 @@
 		ED2E0B211DC2E50600E5813A /* NaiveQueueDataStructureTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaiveQueueDataStructureTests.swift; sourceTree = "<group>"; };
 		ED2E0B221DC2E50600E5813A /* NaiveQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaiveQueue.m; sourceTree = "<group>"; };
 		ED2E0B231DC2E50600E5813A /* NaiveQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaiveQueue.h; sourceTree = "<group>"; };
+		ED2E0B271DC2E5F000E5813A /* InsertionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertionSort.h; sourceTree = "<group>"; };
+		ED2E0B281DC2E5F000E5813A /* InsertionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertionSort.m; sourceTree = "<group>"; };
+		ED2E0B2A1DC2E67F00E5813A /* InsertionSortDataStructureTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertionSortDataStructureTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +183,9 @@
 		ED2E0AD01DC2960600E5813A /* Insertion Sort */ = {
 			isa = PBXGroup;
 			children = (
+				ED2E0B271DC2E5F000E5813A /* InsertionSort.h */,
+				ED2E0B281DC2E5F000E5813A /* InsertionSort.m */,
+				ED2E0B2A1DC2E67F00E5813A /* InsertionSortDataStructureTests.swift */,
 			);
 			path = "Insertion Sort";
 			sourceTree = "<group>";
@@ -319,6 +329,7 @@
 				ED2E0B251DC2E50600E5813A /* NaiveQueue.m in Sources */,
 				ED2E0AD91DC29AC800E5813A /* Stack.m in Sources */,
 				ED2E0AA61DC291F300E5813A /* main.m in Sources */,
+				ED2E0B291DC2E5F000E5813A /* InsertionSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +337,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED2E0B2B1DC2E67F00E5813A /* InsertionSortDataStructureTests.swift in Sources */,
+				ED2E0B2C1DC2E82E00E5813A /* InsertionSort.m in Sources */,
 				ED2E0ADD1DC29E0D00E5813A /* Stack.m in Sources */,
+				ED2E0B2D1DC2E83300E5813A /* NaiveQueue.m in Sources */,
 				ED2E0ADC1DC29CF000E5813A /* StackDataStructureTests.swift in Sources */,
 				ED2E0ABF1DC291F300E5813A /* Objective_C_AlgorithmsUITests.m in Sources */,
 				ED2E0B261DC2E51400E5813A /* NaiveQueueDataStructureTests.swift in Sources */,
